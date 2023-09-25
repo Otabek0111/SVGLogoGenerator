@@ -13,7 +13,7 @@ const questionInputs = [
   {
     name: "shapeColor",
     type: "input",
-    message: "Enter a color keyword (OR a hexadecimal number): ",
+    message: "Enter a Shape color keyword (OR a hexadecimal number): ",
   },
   {
     name: "text",
@@ -24,7 +24,7 @@ const questionInputs = [
   {
     name: "textColor",
     type: "input",
-    message: "Enter text color: ",
+    message: "Enter a Text color keyword (OR a hexadecimal number): ",
   },
 ];
 
