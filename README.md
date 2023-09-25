@@ -8,7 +8,7 @@ This Node.js command-line application allows users to generate a simple logo for
 - [Acceptance Criteria](#acceptance-criteria)
 - [Usage](#usage)
 - [Video Walkthrough](#video-walkthrough)
-- [Example](#example)
+- [Example](#example-logo)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
