@@ -11,15 +11,15 @@ const questionInputs = [
     choices: ["Triangle", "Circle", "Square"],
   },
   {
+    name: "shapeColor",
+    type: "input",
+    message: "Enter a color keyword (OR a hexadecimal number): ",
+  },
+  {
     name: "text",
     type: "input",
     message: "Enter the logo text (no longer the 3 characters): ",
-    validate: (input) => input.length <= 3,
-  },
-  {
-    name: "shapeColor",
-    type: "input",
-    message: "Enter shape color: ",
+    validate: (input) => input.length >= 1 && input.length <= 3
   },
   {
     name: "textColor",
@@ -34,7 +34,7 @@ function writeFile(fileName, data) {
     if (err) {
       console.error(`Error writing to ${fileName}: ${err}`);
     } else {
-      console.log(`Successfully created to ${fileName}`);
+      console.log(`Generated ${fileName}`);
     }
   });
 }
